@@ -343,7 +343,7 @@
 
 
               ?>
-                <div class="col-12 col-md-6   col-lg-3 my-4 cards_animation " data-aos="zoom-in-down">
+                <div class="col-12 col-sm-6  col-md-6   col-lg-3 my-4 cards_animation " data-aos="zoom-in-down">
                   <div class="cat_inner  h-100 border d-block rounded-top  text-capitalize p-3 shadow-lg rounded ">
                     <div class="cat_icon pro_box border border-4 border-dark"><img src="image/pro/<?php echo $row['image'] ?>"
                         height="250px" width="100%" style="object-fit:cover" alt="fennel jpg image">
@@ -370,7 +370,7 @@
 
 
               ?>
-                <div class="col-12 col-md-6   col-lg-3 my-4 cards_animation " data-aos="zoom-in-down">
+                <div class="col-12 col-sm-6 col-md-6   col-lg-3 my-4 cards_animation " data-aos="zoom-in-down">
                   <div class="cat_inner  h-100 border d-block rounded-top  text-capitalize p-3 shadow-lg rounded ">
                     <div class="cat_icon pro_box border border-4 border-dark"><img src="image/t-shirt/<?php echo $row['image'] ?>"
                         height="250px" width="100%" style="object-fit:cover" alt="fennel jpg image">
@@ -396,7 +396,7 @@
 
 
               ?>
-                <div class="col-12 col-md-6   col-lg-3 my-4 cards_animation " data-aos="zoom-in-down">
+                <div class="col-12 col-sm-6 col-md-6   col-lg-3 my-4 cards_animation " data-aos="zoom-in-down">
                   <div class="cat_inner  h-100 border d-block rounded-top  text-capitalize p-3 shadow-lg rounded ">
                     <div class="cat_icon pro_box border border-4 border-dark"><img src="image/shorts/<?php echo $row['image'] ?>"
                         height="250px" width="100%" style="object-fit:cover" alt="fennel jpg image">
@@ -423,7 +423,7 @@
 
 
               ?>
-                <div class="col-12 col-md-6   col-lg-3 my-4 cards_animation " data-aos="zoom-in-down">
+                <div class="col-12 col-sm-6 col-md-6   col-lg-3 my-4 cards_animation " data-aos="zoom-in-down">
                   <div class="cat_inner  h-100 border d-block rounded-top  text-capitalize p-3 shadow-lg rounded ">
                     <div class="cat_icon pro_box border border-4 border-dark"><img src="image/co-ords/<?php echo $row['image'] ?>"
                         height="250px" width="100%" style="object-fit:cover" alt="fennel jpg image">
