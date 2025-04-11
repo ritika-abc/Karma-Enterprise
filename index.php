@@ -59,10 +59,10 @@
       </div>
       <div class="col-lg-5 px-5 text-end">
         <div class="h-100 d-inline-flex align-items-center">
-          <a class="btn btn-square border-end border-start" href=""><i class="fab fa-facebook-f"></i></a>
-          <a class="btn btn-square border-end" href=""><i class="fab fa-twitter"></i></a>
-          <a class="btn btn-square border-end" href=""><i class="fab fa-linkedin-in"></i></a>
-          <a class="btn btn-square border-end" href=""><i class="fab fa-instagram"></i></a>
+     
+          <a class="btn btn-square border-end" href="https://www.facebook.com/profile.php?id=100088082329173&rdid=PBEwDxNwactopq7h&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1APyqb4t2f%2F#"><i class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-square border-end" href="https://www.linkedin.com/in/ronakkumar-kakadiya-0436a6314"><i class="fab fa-linkedin-in"></i></a>
+          <a class="btn btn-square border-end" href="https://www.instagram.com/zevbisa/?igsh=MXdxN2s1cWdqaGt1bg%3D%3D#"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
     </div>
@@ -72,10 +72,7 @@
   <!-- Navbar Start -->
   <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
     <a href="index.html" class="navbar-brand d-flex align-items-center">
-      <h4 class="m-0">
-        <!-- <i class="fa fa-building text-primary me-3"></i> -->
-        Karma Enterprise
-      </h4>
+    <img src="Untitled-3.jpg" height="100px" width="160px" alt="">
     </a>
     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
       <span class="navbar-toggler-icon"></span>
@@ -815,10 +812,10 @@
               for every occasion. Founded in 2021 in Gujarat, we are proud of our four years of ...
             </p>
             <div class="d-flex pt-2">
-              <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-twitter"></i></a>
-              <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
-              <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-youtube"></i></a>
-              <a class="btn btn-square btn-outline-primary me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+              
+              <a class="btn btn-square btn-outline-primary me-1 text-white" href="https://www.facebook.com/profile.php?id=100088082329173&rdid=PBEwDxNwactopq7h&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1APyqb4t2f%2F#"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-square btn-outline-primary me-1 text-white" href="https://www.instagram.com/zevbisa/?igsh=MXdxN2s1cWdqaGt1bg%3D%3D#"><i class="fab fa-instagram"></i></a>
+              <a class="btn btn-square btn-outline-primary me-0 text-white" href="https://www.linkedin.com/in/ronakkumar-kakadiya-0436a6314"><i class="fab fa-linkedin-in"></i></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
