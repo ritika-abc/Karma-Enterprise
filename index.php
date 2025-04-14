@@ -33,68 +33,9 @@
 </head>
 
 <body>
-  <!-- Spinner Start -->
-  <div id="spinner"
-    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-    <div class="spinner-grow text-primary" role="status"></div>
-  </div>
-  <!-- Spinner End -->
-
-  <!-- Topbar Start -->
-  <div class="container-fluid bg-light p-0">
-    <div class="row gx-0 d-none d-lg-flex">
-      <div class="col-lg-7 px-5 text-start">
-        <div class="h-100 d-inline-flex align-items-center border-start border-end px-3">
-          <small class="fa fa-phone-alt me-2"></small>
-          <small>+91 8140982901</small>
-        </div>
-        <div class="h-100 d-inline-flex align-items-center border-end px-3">
-          <small class="far fa-envelope-open me-2"></small>
-          <small>karmaenterprisee@gmail.com</small>
-        </div>
-        <div class="h-100 d-inline-flex align-items-center border-end px-3">
-          <small class="far fa-clock me-2"></small>
-          <small>Mon - Fri : 09 AM - 09 PM</small>
-        </div>
-      </div>
-      <div class="col-lg-5 px-5 text-end">
-        <div class="h-100 d-inline-flex align-items-center">
-     
-          <a class="btn btn-square border-end" href="https://www.facebook.com/profile.php?id=100088082329173&rdid=PBEwDxNwactopq7h&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1APyqb4t2f%2F#"><i class="fab fa-facebook-f"></i></a>
-          <a class="btn btn-square border-end" href="https://www.linkedin.com/in/ronakkumar-kakadiya-0436a6314"><i class="fab fa-linkedin-in"></i></a>
-          <a class="btn btn-square border-end" href="https://www.instagram.com/zevbisa/?igsh=MXdxN2s1cWdqaGt1bg%3D%3D#"><i class="fab fa-instagram"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Topbar End -->
-
-  <!-- Navbar Start -->
-  <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
-    <a href="index.html" class="navbar-brand d-flex align-items-center">
-    <img src="Untitled-3.jpg" height="100px" width="160px" alt="">
-    </a>
-    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <div class="navbar-nav ms-auto py-3 py-lg-0">
-        <a href="index.html" class="nav-item nav-link active">Home</a>
-        <a href="" class="nav-item nav-link">About Us</a>
-        <a href="" class="nav-item nav-link">Our Services</a>
-        <div class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-          <div class="dropdown-menu bg-light m-0">
-            <a href=" " class="dropdown-item">PRODUCT</a>
-
-          </div>
-        </div>
-        <a href=" " class="nav-item nav-link">Contact Us</a>
-      </div>
-    </div>
-  </nav>
-  <!-- Navbar End -->
-
+  <?php
+  include "nav.php";
+  ?>
   <!-- Carousel Start -->
   <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
@@ -440,7 +381,7 @@
       <div class="text-center">
         <h6 class="text-body text-uppercase mb-2">Products</h6>
         <h2 class="display-6 mb-0 mb-5">
-         Child's Clothing
+          Child's Clothing
         </h2>
       </div>
       <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
@@ -483,7 +424,7 @@
                     <div class="cat_icon pro_box border border-4 border-dark"><img src="image/child/shirt/<?php echo $row['image'] ?>"
                         height="250px" width="100%" style="object-fit:cover" alt="fennel jpg image">
                     </div>
-                    <div class="cat_name mt-3 fw-bold  mx-2 text-danger"> <?php echo $row['name'] ?>  </div>
+                    <div class="cat_name mt-3 fw-bold  mx-2 text-danger"> <?php echo $row['name'] ?> </div>
                   </div>
                   <a href="" class="btn btn-dark w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquiry
                     now</a>
@@ -510,7 +451,7 @@
                     <div class="cat_icon pro_box border border-4 border-dark"><img src="image/child/t-shirt/<?php echo $row['image'] ?>"
                         height="250px" width="100%" style="object-fit:cover" alt="fennel jpg image">
                     </div>
-                    <div class="cat_name mt-3 fw-bold  mx-2 text-danger"> <?php echo $row['name'] ?>  </div>
+                    <div class="cat_name mt-3 fw-bold  mx-2 text-danger"> <?php echo $row['name'] ?> </div>
                   </div>
                   <a href="" class="btn btn-dark w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquiry
                     now</a>
@@ -563,7 +504,7 @@
                     <div class="cat_icon pro_box border border-4 border-dark"><img src="image/child/co-ords/<?php echo $row['image'] ?>"
                         height="250px" width="100%" style="object-fit:cover" alt="fennel jpg image">
                     </div>
-                    <div class="cat_name mt-3 fw-bold  mx-2 text-danger"> <?php echo $row['name'] ?>  </div>
+                    <div class="cat_name mt-3 fw-bold  mx-2 text-danger"> <?php echo $row['name'] ?> </div>
                   </div>
                   <a href="" class="btn btn-dark w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquiry
                     now</a>
@@ -798,78 +739,7 @@
       </div>
     </div>
     <!-- Testimonial End -->
+<?php
+include "footer.php"
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
-      <div class="container py-5">
-        <div class="row g-5">
-          <div class="col-lg-4 col-md-6">
-            <h2 class="text-white mb-4">
-              Karma Enterprise
-            </h2>
-            <p class="jus">
-              At Karma Enterprise, we specialize in creating stylish, comfortable, and high-quality shirts and t-shirts
-              for every occasion. Founded in 2021 in Gujarat, we are proud of our four years of ...
-            </p>
-            <div class="d-flex pt-2">
-              
-              <a class="btn btn-square btn-outline-primary me-1 text-white" href="https://www.facebook.com/profile.php?id=100088082329173&rdid=PBEwDxNwactopq7h&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1APyqb4t2f%2F#"><i class="fab fa-facebook-f"></i></a>
-              <a class="btn btn-square btn-outline-primary me-1 text-white" href="https://www.instagram.com/zevbisa/?igsh=MXdxN2s1cWdqaGt1bg%3D%3D#"><i class="fab fa-instagram"></i></a>
-              <a class="btn btn-square btn-outline-primary me-0 text-white" href="https://www.linkedin.com/in/ronakkumar-kakadiya-0436a6314"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <h4 class="text-light mb-4">Address</h4>
-            <p>
-              <i class="fa fa-map-marker-alt me-3"></i> 97, Vandana Soc-2, Nana Varachha , Surat ,Gujarat, India
-              395006
-
-            </p>
-            <p><i class="fa fa-phone-alt me-3"></i>+91 8140982901</p>
-            <p><i class="fa fa-envelope me-3"></i> karmaenterprisee@gmail.com</p>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <h4 class="text-light mb-4">Quick Links</h4>
-            <a class="btn btn-link" href="">About Us</a>
-            <a class="btn btn-link" href="">Contact Us</a>
-            <a class="btn btn-link" href="">Our Products</a>
-
-
-
-          </div>
-
-        </div>
-      </div>
-      <div class="container-fluid copyright">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-              &copy; <a href="/">Karma Enterprise</a>, All Right Reserved.
-            </div>
-            <div class="col-md-6 text-center text-md-end">
-
-              Designed By <a href="https://web2export.com" target="_blank">web2export.com</a>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Footer End -->
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-</body>
-
-</html>
+?>
